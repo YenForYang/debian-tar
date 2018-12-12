@@ -1,0 +1,12 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I..", "-I../gnu", "-I../", "-I../gnu", "-I../lib", "-I../lib", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021", "-par-schedule-auto", "-ipo", "-DHAVE_CONFIG_H", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/NONGIT/tar/tar-1.30+dfsg=.", "-fstack-protector-strong", "-Wformat", "-Werror=format-security", "-march=native", "-pipe", "-Wall", "-MT", "create.o", "-MD", "-MP", "-MF", ".deps/create.Tpo", "-c", "-o", "create.o" ],
+    "objects" : [
+        {
+            "object_name" : "create.o",
+            "source_name" : "create.c",
+            "start_time" : "2018-12-02T07:54:06Z",
+            "end_time" : "2018-12-02T07:54:07Z"
+        }
+    ]
+}

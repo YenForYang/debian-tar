@@ -1,0 +1,12 @@
+Package: tar-dbgsym
+Source: tar
+Version: 1.30+dfsg-3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Bdale Garbee <bdale@gag.com>
+Installed-Size: 501
+Depends: tar (= 1.30+dfsg-3)
+Section: debug
+Priority: optional
+Description: debug symbols for tar
+Build-Ids: 018b41840cc4553d743fb634f6705cec4edebca6 1c84c5a1e220111a1f4385e595e86544a69cd0e8

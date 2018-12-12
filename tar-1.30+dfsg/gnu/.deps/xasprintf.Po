@@ -1,0 +1,10 @@
+xasprintf.o: xasprintf.c /usr/include/stdc-predef.h ../config.h xvasprintf.h \
+ /opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stdarg.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+xvasprintf.h:
+
+/opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stdarg.h:

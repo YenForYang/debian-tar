@@ -1,0 +1,7 @@
+ce9de6ae84d2ddc0574d1a2e81c7223a  usr/lib/tar/backup.sh
+753c5f887d054018cdc7d62bdf8b3fa4  usr/lib/tar/dump-remind
+0797b96818a5db67eefac8b6e4d5e9ab  usr/sbin/tar-backup
+d4634a887fa3e86fe2317b2c514a42cc  usr/sbin/tar-restore
+a80170a91e1c03624c73cdba40a3fd13  usr/share/doc/tar-scripts/changelog.Debian.gz
+adb76911c800099b6fb0eaf87c51bf22  usr/share/doc/tar-scripts/changelog.gz
+6cc9239a1f4b61c5ea9db23f92b2d20b  usr/share/doc/tar-scripts/copyright

@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Fri, 16 Nov 2018 21:33:47 -1000
+Source: tar
+Binary: tar tar-scripts
+Built-For-Profiles: nobiarch nocheck
+Architecture: amd64
+Version: 1.30+dfsg-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Bdale Garbee <bdale@gag.com>
+Changed-By: Bdale Garbee <bdale@gag.com>
+Description:
+ tar        - GNU version of the tar archiving utility
+ tar-scripts - optional scripts for GNU version of the tar archiving utility
+Closes: 653043 837351 846490 852462 894065 910985
+Changes:
+ tar (1.30+dfsg-3) unstable; urgency=medium
+ .
+   * elide reference to non-existent section 5 page from section 1 tar manpage,
+     closes: #846490
+   * update README.Debian to reflect ncompress now being in main
+   * remove the NEWS file since it's more than a decade since the latest content
+     and the text there confuses new users
+   * stop delivering the /etc/rmt script, use a symlink instead, closes: #653043
+   * fold in patch for difflink.at (test number 92) that fixes kfreebsd builds,
+     closes: #837351
+   * apply patch to allow test suite to pass on Hurd again, closes: #910985
+   * apply patch to incorporate zstd support, closes: #894065
+   * apply patch to correct Italian translation, closes: #852462
+Checksums-Sha1:
+ 02197ef04477d57117afca5510ce41c9d336b9a4 440468 tar-dbgsym_1.30+dfsg-3_amd64.deb
+ c9dd964eabfee3b2420382c0bcb83fb189d70831 169876 tar-scripts_1.30+dfsg-3_amd64.deb
+ f0d8e7da35682696ede6f2207f3698197e5ed2da 5833 tar_1.30+dfsg-3_amd64.buildinfo
+ d729d46161fd8e9fd043452d2a6e0b6051bbafb1 873712 tar_1.30+dfsg-3_amd64.deb
+Checksums-Sha256:
+ f2f202576ce1490848ebf6a7829aba21dfbe0f9ac003b51380c3e7bd950f0d0a 440468 tar-dbgsym_1.30+dfsg-3_amd64.deb
+ 06e2d9253154c4c065b66b508946e231329d950699f4809562c986f1d96d9c5c 169876 tar-scripts_1.30+dfsg-3_amd64.deb
+ 063ecc3de97b15e86e5afe49c6bfd4552d115d0b88a8943ddc9755ab714f2226 5833 tar_1.30+dfsg-3_amd64.buildinfo
+ 674b1589e031f9bd5b3f213f6c0fd2e0e1957b2160ecfe0727a73b8ea08ca60c 873712 tar_1.30+dfsg-3_amd64.deb
+Files:
+ 70c590c27c61457d27c52f5faddd0bc2 440468 debug optional tar-dbgsym_1.30+dfsg-3_amd64.deb
+ 27a30a01745c63b63ec18a04325b48c0 169876 utils optional tar-scripts_1.30+dfsg-3_amd64.deb
+ af553174a0345d8b87787c8093c63b72 5833 utils required tar_1.30+dfsg-3_amd64.buildinfo
+ 1076b39127e657021ceb4ade3013aa7e 873712 utils required tar_1.30+dfsg-3_amd64.deb
